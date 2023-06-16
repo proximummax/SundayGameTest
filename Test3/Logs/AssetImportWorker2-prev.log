@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32652 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-D:/UnityProjects/Test3
+C:/Users/Grushan/Documents/GitHub/SundayGameTest/Test3
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-61106
-Successfully changed project path to: D:/UnityProjects/Test3
-D:/UnityProjects/Test3
+60622
+Successfully changed project path to: C:/Users/Grushan/Documents/GitHub/SundayGameTest/Test3
+C:/Users/Grushan/Documents/GitHub/SundayGameTest/Test3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,11 @@ D:/UnityProjects/Test3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16328] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1306860368 [EditorId] 1306860368 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6JH352A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-
-Player connection [16328] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1306860368 [EditorId] 1306860368 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6JH352A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-
-Refreshing native plugins compatible for Editor in 54.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 225.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.20f1 (577897200b8b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/UnityProjects/Test3/Assets
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Grushan/Documents/GitHub/SundayGameTest/Test3/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -64,95 +60,95 @@ Direct3D:
     VRAM:     8038 MB
     Driver:   31.0.15.3203
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005040 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005342 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 53.42 ms, found 3 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 55.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.402 seconds
+- Completed reload, in  0.426 seconds
 Domain Reload Profiling:
-	ReloadAssembly (403ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (426ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (282ms)
-			LoadAssemblies (54ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (303ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (61ms)
+			SetupTypeCache (64ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (171ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (189ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (38ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
+				RefreshPlugins (56ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002342 seconds.
+Registered in 0.003466 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Test3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Test3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grushan\Documents\GitHub\SundayGameTest\Test3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grushan\Documents\GitHub\SundayGameTest\Test3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.615 seconds
+- Completed reload, in  0.740 seconds
 Domain Reload Profiling:
-	ReloadAssembly (615ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (741ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (468ms)
-			LoadAssemblies (55ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (490ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
+			SetupTypeCache (153ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (216ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (228ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.4 KB). Loaded Objects now: 3507.
-Memory consumption went from 107.6 MB to 107.5 MB.
-Total: 2.555800 ms (FindLiveObjects: 0.260500 ms CreateObjectMapping: 0.096400 ms MarkObjects: 2.108500 ms  DeleteObjects: 0.089500 ms)
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.9 KB). Loaded Objects now: 3511.
+Memory consumption went from 108.2 MB to 108.1 MB.
+Total: 2.171900 ms (FindLiveObjects: 0.182800 ms CreateObjectMapping: 0.073700 ms MarkObjects: 1.844000 ms  DeleteObjects: 0.070800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,167 +162,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 26550.021148 seconds.
-  path: Assets/FreeTestCharacterAsuna/Prefabs/CharacterStandardEquipment/ScifiPistolMNL21MasterPrefab.prefab
-  artifactKey: Guid(f93bad5d36639e24eacfa1803d264640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/Prefabs/CharacterStandardEquipment/ScifiPistolMNL21MasterPrefab.prefab using Guid(f93bad5d36639e24eacfa1803d264640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4a5f2a61719b0b991725ae95a1de4e') in 0.164918 seconds 
+  Time since last request: 2531.499500 seconds.
+  path: Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/Materials/AsunaArmor.mat
+  artifactKey: Guid(8fccef3da4d8bef458523fc0ccbdeb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/Materials/AsunaArmor.mat using Guid(8fccef3da4d8bef458523fc0ccbdeb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40183afdbc50a96898bd39138229b854') in 0.321866 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.171179 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX
-  artifactKey: Guid(87c8dc577aefbb745b656450d29e0b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX using Guid(87c8dc577aefbb745b656450d29e0b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a056884c913995dc25fa7d133daf3cb0') in 0.005742 seconds 
+  Time since last request: 1.497587 seconds.
+  path: Assets/FreeTestCharacterAsuna/Prefabs/FreeTestCharacterAsunaMasterPrefab.prefab
+  artifactKey: Guid(798c05ee1e2530b4ebb1d9d7e5a2c6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/Prefabs/FreeTestCharacterAsunaMasterPrefab.prefab using Guid(798c05ee1e2530b4ebb1d9d7e5a2c6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5555e2098da84937f0cd35cbaeba7bbe') in 2.477983 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.723269 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/Animations
-  artifactKey: Guid(d3e455bbbc3f2a440abcdedb94ea547e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/Animations using Guid(d3e455bbbc3f2a440abcdedb94ea547e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c2d62cb9f0153cf34397811fb53b61') in 0.006033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.062135 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/Animations/000AvatarDefinition.fbx
-  artifactKey: Guid(cea17f1c76459ab479f3c64016ea868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/Animations/000AvatarDefinition.fbx using Guid(cea17f1c76459ab479f3c64016ea868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb300b17065c359e55a2bd449a631a1') in 0.249030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/Animations/010Pistol.fbx
-  artifactKey: Guid(f6f195dd917589440bbbf644881dd56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/Animations/010Pistol.fbx using Guid(f6f195dd917589440bbbf644881dd56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d32655516eb24f867ee1a7ddf49e84') in 0.092345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/Animations/004Jump.fbx
-  artifactKey: Guid(9358c999a74c183469874ced4ed52b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/Animations/004Jump.fbx using Guid(9358c999a74c183469874ced4ed52b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fa2915327b017ef4c18b933e16987a') in 0.116864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/Animations/011Rifle.fbx
-  artifactKey: Guid(bab18fc2fd7f9054e8b7e9f076defec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/Animations/011Rifle.fbx using Guid(bab18fc2fd7f9054e8b7e9f076defec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482805f6d3e28c6177c1adbc38fab80f') in 0.136591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/Animations/023OneHandMeleeWeapon.fbx
-  artifactKey: Guid(48857c97fb2d42f49b7dc2b42d517550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/Animations/023OneHandMeleeWeapon.fbx using Guid(48857c97fb2d42f49b7dc2b42d517550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e011f6f2f507bcec6a938b3822a42a65') in 0.172967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.783470 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/Animations/FreeTestAnimationController.controller
-  artifactKey: Guid(4775ccfcc5dd08b46962f86c2c57e286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/Animations/FreeTestAnimationController.controller using Guid(4775ccfcc5dd08b46962f86c2c57e286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399e553014f05b66b9912ddb6a660dd2') in 0.047180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.672350 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/Animations/Materials
-  artifactKey: Guid(704796b030faf00488c0a9141313ab54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/Animations/Materials using Guid(704796b030faf00488c0a9141313ab54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71202fcedd190347c49fc5006f0deed3') in 0.005821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.034313 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/Animations/Materials/DefaultMaterial.mat
-  artifactKey: Guid(4ee7b3bb60164464a89d8d11df485683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/Animations/Materials/DefaultMaterial.mat using Guid(4ee7b3bb60164464a89d8d11df485683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc639e9ca27a051e2f92561a337c32cc') in 0.019218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.391499 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/AsunaArmor
-  artifactKey: Guid(cdc4f9a4e40d5404abc7b38371ccf3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/AsunaArmor using Guid(cdc4f9a4e40d5404abc7b38371ccf3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d9cb0ef10d74c79c7243c23d03d8e7') in 0.006067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.166555 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorEllbowLeft.fbx
-  artifactKey: Guid(f871993c88cb2754095ac4f5d01ee14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorEllbowLeft.fbx using Guid(f871993c88cb2754095ac4f5d01ee14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84eaae7d1b5cc57726fd9e3af55b7a8b') in 0.034880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorLowerArmLeft.fbx
-  artifactKey: Guid(378ce170110d7cf479d280be4982a3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorLowerArmLeft.fbx using Guid(378ce170110d7cf479d280be4982a3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db0e67cc2052d9477bd5dae602ce1ce') in 0.020123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorUpperArmLeft.fbx
-  artifactKey: Guid(7c58b7c9678f63d4a93dbaf8f4d3aaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorUpperArmLeft.fbx using Guid(7c58b7c9678f63d4a93dbaf8f4d3aaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfaf615fc072059551374e76ac9fbe0') in 0.017951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorUpperArmRight.fbx
-  artifactKey: Guid(2a6409d97c5dcc349b2ca59452458260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorUpperArmRight.fbx using Guid(2a6409d97c5dcc349b2ca59452458260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac80a2f32a5aede0ca448418360f8c75') in 0.017288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorKneeRight.fbx
-  artifactKey: Guid(53b2dd4ac409e734f9e23b533f8a01ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorKneeRight.fbx using Guid(53b2dd4ac409e734f9e23b533f8a01ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35103b5f8d8dac7945be129d7382508c') in 0.016116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.360633 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/CharacterStandardAmmunition
-  artifactKey: Guid(08e3c7d9e13cd1a428a6fbd171ae1560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/CharacterStandardAmmunition using Guid(08e3c7d9e13cd1a428a6fbd171ae1560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a5fd092092ed69122a32d6a3fe82ce') in 0.005654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.067305 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/CharacterStandardAmmunition/9x19mmCartridge.fbx
-  artifactKey: Guid(c9023e9a70c384645861cba3b8b05122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/CharacterStandardAmmunition/9x19mmCartridge.fbx using Guid(c9023e9a70c384645861cba3b8b05122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078def1749a898d79145d068af3758ae') in 0.013007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/CharacterStandardAmmunition/9x19mmRound.fbx
-  artifactKey: Guid(65e7568e925fdb242bbc4f28fa661176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/CharacterStandardAmmunition/9x19mmRound.fbx using Guid(65e7568e925fdb242bbc4f28fa661176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c826e3a7612dbd197b612591648b2961') in 0.012619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/CharacterStandardAmmunition/762x51mmCartridge.fbx
-  artifactKey: Guid(34c44105433330c4aa19895640edfe6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/CharacterStandardAmmunition/762x51mmCartridge.fbx using Guid(34c44105433330c4aa19895640edfe6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9db7472da1227da22bbf54074ea906') in 0.012191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.089280 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/ScifiHolsterBase.fbx
-  artifactKey: Guid(6f94cf5d1df9b42429b54ab1faedaa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/ScifiHolsterBase.fbx using Guid(6f94cf5d1df9b42429b54ab1faedaa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ffab54ece457da21d15501aa1d2ed5') in 0.042422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/ScifiRifleWLT78Bolt.fbx
-  artifactKey: Guid(f0506eb233df5fc4199dccbb4ce2750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/ScifiRifleWLT78Bolt.fbx using Guid(f0506eb233df5fc4199dccbb4ce2750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbce9b988d19964c5e3a11d550c4d4f') in 0.064235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/ScifiPistolMNL21FireSelect.fbx
-  artifactKey: Guid(12758ce542cc3d244b57aef358068147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/ScifiPistolMNL21FireSelect.fbx using Guid(12758ce542cc3d244b57aef358068147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc82abc329d68af61103012f91a0b17') in 0.046477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/ScifiRifleWLT78Trigger.fbx
-  artifactKey: Guid(ff62ff0a9a16eb440a95381371b44d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/ScifiRifleWLT78Trigger.fbx using Guid(ff62ff0a9a16eb440a95381371b44d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0409049ee3e7ba2829e2419f8d936a7a') in 0.045748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/ScifiHolsterTopCover.fbx
-  artifactKey: Guid(41b68764a1aff8449b9b540eee059e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/ScifiHolsterTopCover.fbx using Guid(41b68764a1aff8449b9b540eee059e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0d1e6acbdb2aeb156b5769d8e190ad') in 0.055271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/ScifiRifleWLT78FireSelect.fbx
-  artifactKey: Guid(4ecd2755396c0c74abf992b3a91e4dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/CharacterStandardEquipment/ScifiRifleWLT78FireSelect.fbx using Guid(4ecd2755396c0c74abf992b3a91e4dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95d1b6f152c25a9f171be71ef4614a3') in 0.056507 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 2.073828 seconds.
+  path: Assets/FreeTestCharacterAsuna/Textures
+  artifactKey: Guid(0b3720f90c74a914c8bed66b844e5a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/Textures using Guid(0b3720f90c74a914c8bed66b844e5a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cecb0662f069425ddb324a071d6f1e') in 0.006161 seconds 

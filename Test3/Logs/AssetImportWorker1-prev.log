@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32652 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/UnityProjects/Test3
+C:/Users/Grushan/Documents/GitHub/SundayGameTest/Test3
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61106
-Successfully changed project path to: D:/UnityProjects/Test3
-D:/UnityProjects/Test3
+60622
+Successfully changed project path to: C:/Users/Grushan/Documents/GitHub/SundayGameTest/Test3
+C:/Users/Grushan/Documents/GitHub/SundayGameTest/Test3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,11 @@ D:/UnityProjects/Test3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18108] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1841423679 [EditorId] 1841423679 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6JH352A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-
-Player connection [18108] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1841423679 [EditorId] 1841423679 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6JH352A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-
-Refreshing native plugins compatible for Editor in 57.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.20f1 (577897200b8b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/UnityProjects/Test3/Assets
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Grushan/Documents/GitHub/SundayGameTest/Test3/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -64,81 +60,81 @@ Direct3D:
     VRAM:     8038 MB
     Driver:   31.0.15.3203
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005126 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006078 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 50.94 ms, found 3 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 56.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.407 seconds
+- Completed reload, in  0.446 seconds
 Domain Reload Profiling:
-	ReloadAssembly (408ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (446ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (286ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (320ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (64ms)
+			SetupTypeCache (67ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (172ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (200ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (40ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
+				RefreshPlugins (56ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (84ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002326 seconds.
+Registered in 0.003807 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Test3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Test3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grushan\Documents\GitHub\SundayGameTest\Test3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grushan\Documents\GitHub\SundayGameTest\Test3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.631 seconds
+- Completed reload, in  0.742 seconds
 Domain Reload Profiling:
-	ReloadAssembly (632ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (742ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (480ms)
-			LoadAssemblies (56ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (156ms)
+			SetupTypeCache (151ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (221ms)
+			SetupLoadedEditorAssemblies (230ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (54ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
 				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -147,12 +143,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.4 KB). Loaded Objects now: 3507.
-Memory consumption went from 107.4 MB to 107.3 MB.
-Total: 2.282000 ms (FindLiveObjects: 0.180300 ms CreateObjectMapping: 0.095200 ms MarkObjects: 1.926500 ms  DeleteObjects: 0.079300 ms)
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.9 KB). Loaded Objects now: 3511.
+Memory consumption went from 108.2 MB to 108.1 MB.
+Total: 2.284300 ms (FindLiveObjects: 0.179300 ms CreateObjectMapping: 0.073800 ms MarkObjects: 1.958800 ms  DeleteObjects: 0.071800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,52 +162,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 26304.428274 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.009929 seconds 
+  Time since last request: 2525.057877 seconds.
+  path: Assets/FreeTestCharacterAsuna/FBX/Animations/011Rifle.fbx
+  artifactKey: Guid(bab18fc2fd7f9054e8b7e9f076defec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/FBX/Animations/011Rifle.fbx using Guid(bab18fc2fd7f9054e8b7e9f076defec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935f48f0981792ea810fa10229d5026c') in 0.275314 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 243.608731 seconds.
-  path: Assets/FreeTestCharacterAsuna/Prefabs/CharacterStandardAmmunition/9x19mmProjectile.prefab
-  artifactKey: Guid(fcd8eda09ebe0574f928812b425a9e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/Prefabs/CharacterStandardAmmunition/9x19mmProjectile.prefab using Guid(fcd8eda09ebe0574f928812b425a9e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd461a588b0835f96020726d69df7042e') in 0.270344 seconds 
+  Time since last request: 3.545556 seconds.
+  path: Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorEllbowRight.fbx
+  artifactKey: Guid(adda6fa7438addb46ac533b26415c08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorEllbowRight.fbx using Guid(adda6fa7438addb46ac533b26415c08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4719e4fe51460f16fd364fe2fc725536') in 0.234153 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.594956 seconds.
-  path: Assets/FreeTestCharacterAsuna/Prefabs/CharacterStandardEquipment/ScifiPistolMNL21MagazineEmpty.prefab
-  artifactKey: Guid(20931ac5e7e4c3d4ca93dd525c9b4af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/Prefabs/CharacterStandardEquipment/ScifiPistolMNL21MagazineEmpty.prefab using Guid(20931ac5e7e4c3d4ca93dd525c9b4af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d2edec6cddbcd896105ea65727bf74') in 0.066089 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorLowerArmLeft.fbx
+  artifactKey: Guid(378ce170110d7cf479d280be4982a3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorLowerArmLeft.fbx using Guid(378ce170110d7cf479d280be4982a3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f669b13bb05053c7842c9af17dd0ebfd') in 0.083721 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/FreeTestCharacterAsuna/Prefabs/CharacterStandardEquipment/ScifiRifleWLT78MagazineEmpty.prefab
-  artifactKey: Guid(50df3fdf0d101b84ca83b7f7394e8a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/Prefabs/CharacterStandardEquipment/ScifiRifleWLT78MagazineEmpty.prefab using Guid(50df3fdf0d101b84ca83b7f7394e8a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df475792f45bc06921b25c925773b9e') in 0.058087 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorShoulderRight.fbx
+  artifactKey: Guid(b43ded0399e28924a88ef156431278e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorShoulderRight.fbx using Guid(b43ded0399e28924a88ef156431278e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8997d272858d7fae61cb84e49a1fb208') in 0.086391 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FreeTestCharacterAsuna/Prefabs/CharacterStandardEquipment/ScifiPistolMNL21MagazineFull.prefab
-  artifactKey: Guid(9931aeae3fa09b844bfbcbcdce8e256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/Prefabs/CharacterStandardEquipment/ScifiPistolMNL21MagazineFull.prefab using Guid(9931aeae3fa09b844bfbcbcdce8e256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8252810e0731921bb2e86bc2bfde9028') in 0.046947 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorUpperArmRight.fbx
+  artifactKey: Guid(2a6409d97c5dcc349b2ca59452458260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorUpperArmRight.fbx using Guid(2a6409d97c5dcc349b2ca59452458260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa292919c98f1ac32c0b99acc1a2ce9') in 0.081094 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.057044 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/Animations/002Walk.fbx
-  artifactKey: Guid(e97d495423216644b9d0dd0beb76a23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/Animations/002Walk.fbx using Guid(e97d495423216644b9d0dd0beb76a23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dddac84e93564e25ce27e46e04443ac') in 0.298792 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorLowerArmRight.fbx
+  artifactKey: Guid(7de2d8de19b58f944b91b6c5a044f542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/FBX/AsunaArmor/AsunaArmorLowerArmRight.fbx using Guid(7de2d8de19b58f944b91b6c5a044f542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2191d5532160ce1f9c9442b6cd212aa') in 0.080201 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/Animations/005Stealth.fbx
-  artifactKey: Guid(07bc71fcfa6d8b346abaa1fbe7e0029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/Animations/005Stealth.fbx using Guid(07bc71fcfa6d8b346abaa1fbe7e0029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388702f0cce4f461f24b19f1a95567e4') in 0.206388 seconds 
+  Time since last request: 4.617234 seconds.
+  path: Assets/FreeTestCharacterAsuna/Prefabs/AsunaArmor/AsunaArmorEllbowRight.prefab
+  artifactKey: Guid(1516e66c6a684c243bd67c6745447650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/Prefabs/AsunaArmor/AsunaArmorEllbowRight.prefab using Guid(1516e66c6a684c243bd67c6745447650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50a3f1b4ccfc441f8565ddd35019c0d') in 0.181770 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/FreeTestCharacterAsuna/FBX/Animations/022Unarmed.fbx
-  artifactKey: Guid(7f4d48cdc8bc8144ca455a4eb597ba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeTestCharacterAsuna/FBX/Animations/022Unarmed.fbx using Guid(7f4d48cdc8bc8144ca455a4eb597ba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56762d9c28fb599aa15f0f589d884bdf') in 0.126629 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/FreeTestCharacterAsuna/Prefabs/AsunaArmor/AsunaArmorLowerArmRight.prefab
+  artifactKey: Guid(f89efb80f30ce754e9cc56b5a2355fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/Prefabs/AsunaArmor/AsunaArmorLowerArmRight.prefab using Guid(f89efb80f30ce754e9cc56b5a2355fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0082d5694649f9ac44622748f48561ec') in 0.170214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FreeTestCharacterAsuna/Prefabs/AsunaArmor/AsunaArmorLowerArmLeft.prefab
+  artifactKey: Guid(6447d30dc365ac648934a1a894c469f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/Prefabs/AsunaArmor/AsunaArmorLowerArmLeft.prefab using Guid(6447d30dc365ac648934a1a894c469f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a9a2866f0f7e458d76cba58c16dfe4') in 0.179504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FreeTestCharacterAsuna/Prefabs/AsunaArmor/AsunaArmorKneeRight.prefab
+  artifactKey: Guid(36329f47412fb2340b265d290d2c7df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeTestCharacterAsuna/Prefabs/AsunaArmor/AsunaArmorKneeRight.prefab using Guid(36329f47412fb2340b265d290d2c7df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6820d43d068e9d60ff6200718d22ff5') in 0.158647 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

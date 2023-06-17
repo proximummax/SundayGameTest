@@ -26,7 +26,7 @@ public class CarController : MonoBehaviour
     }
     public void RotateInput(float Input)
     {
-        _rotateInput = Input;
+        _rotateInput += Input;
     }
 
     private void HandleMotor()
@@ -39,6 +39,8 @@ public class CarController : MonoBehaviour
     private void HandleSteering()
     {
         _currentSteerAngle = maxSteerAngle * _rotateInput;
+        if (Mathf.Abs(_currentSteerAngle) > maxSteerAngle)
+            return;
         _frontLeftWheelCollider.steerAngle = _currentSteerAngle;
         _frontRightWheelCollider.steerAngle = _currentSteerAngle;
     }

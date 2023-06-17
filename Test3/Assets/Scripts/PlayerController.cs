@@ -1,45 +1,93 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField]
-    private CharacterController _characterController;
-    [SerializeField]
-    Joystick _joystick;
+    //Controller
+    [SerializeField] private CharacterController _characterController;
+    [SerializeField] private float _speed;
+    [SerializeField] private float _jumpHeight = 1.0f;
+    [SerializeField] private float _gravityValue = 20.0f;
+    [SerializeField] private float _rotationSpeed;
 
-    [SerializeField]
-    private Animator _animator;
+    // Joystick
+    [SerializeField] Joystick _joystick;
+    private float _horizontalMove;
+    private float _verticalMove;
 
-    [SerializeField]
-    private float _speed;
+    [SerializeField] private Animator _animator;
+    [SerializeField] private string _movementAnimationKey;
+    [SerializeField] private string _fireAnimationKey;
+    [SerializeField] private string _jumpingAnimationKey;
 
-    private float horizontalMove;
-    private float verticalMove;
+    private Vector3 _moveDirection = Vector3.zero;
+
+    private Vector3 _rotationDirection;
+
+    private bool _isMoving = false;
+    public bool IsMoving
+    {
+        get => _isMoving;
+    }
+
     private void Update()
     {
+        _horizontalMove = _joystick.Horizontal * _speed;
+        _verticalMove = _joystick.Vertical * _speed;
 
-        horizontalMove = _joystick.Horizontal * _speed;
-        verticalMove = _joystick.Vertical * _speed;
+        Move();
+        Rotate();
 
-        if (horizontalMove != 0 || verticalMove != 0)
+        if (_moveDirection.y <= 0)
         {
-            Vector3 move = new Vector3(horizontalMove, 0, verticalMove);
-            _characterController.Move(move * Time.deltaTime);
+            _animator.SetBool(_jumpingAnimationKey, false);
+        }
 
-            _animator.SetBool("IsMoving", true);
+        if (!_characterController.isGrounded)
+        {
+            _moveDirection.y -= _gravityValue * Time.deltaTime;
+            _characterController.Move(_moveDirection * Time.deltaTime);
+            
+        }
+    }
+
+    private void Move()
+    {
+        if (_horizontalMove != 0 || _verticalMove != 0)
+        {
+            Vector3 move = new Vector3(_horizontalMove, 0, _verticalMove);
+            _characterController.Move(move * Time.deltaTime);
+            _isMoving = true;
+
+            _animator.SetBool(_movementAnimationKey, _isMoving);
         }
         else
         {
-            _animator.SetBool("IsMoving", false);
+            _isMoving = false;
+            _animator.SetBool(_movementAnimationKey, _isMoving);
         }
-
-
-        if(Input.GetKeyDown(KeyCode.W))
+    }
+    private void Rotate()
+    {
+        if (_horizontalMove != 0 || _verticalMove != 0)
         {
-            _animator.SetBool("IsFire", true);
+            _rotationDirection = new Vector3(0, _horizontalMove * _rotationSpeed * Time.deltaTime, 0);
+            _characterController.transform.Rotate(_rotationDirection);
         }
-      
+    }
+    public void Aim(bool isNeedAim)
+    {
+        if (isNeedAim)
+        {
+            _animator.SetBool(_fireAnimationKey, true);
+        }
+        else
+        {
+            _animator.SetBool(_fireAnimationKey, false);
+        }
+    }
+    public void Jump()
+    {
+        _moveDirection.y = _jumpHeight;
+        _animator.SetBool(_jumpingAnimationKey, true);
     }
 }

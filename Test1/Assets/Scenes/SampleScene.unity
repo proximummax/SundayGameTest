@@ -536,7 +536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb7058d936ad33d42a36352165e53af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationAngleRange: {x: 0.1, y: 0.3}
+  _rotationAngleRange: {x: 0.5, y: 1}
   _inputController: {fileID: 76549181}
   _boomParticleEffect: {fileID: 773007773}
 --- !u!1 &963194225

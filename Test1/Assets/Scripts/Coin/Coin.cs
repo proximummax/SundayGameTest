@@ -2,12 +2,9 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    [SerializeField]
-    private Vector2 _rotationAngleRange;
-    [SerializeField]
-    private InputController _inputController;
-    [SerializeField]
-    private ParticleSystem _boomParticleEffect;
+    [SerializeField] private Vector2 _rotationAngleRange;
+    [SerializeField] private InputController _inputController;
+    [SerializeField] private ParticleSystem _boomParticleEffect;
 
     private float _currentRotationRoll = 0.0f;
     private void Start()
